@@ -7,5 +7,5 @@ X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40],
 Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
      'female', 'male', 'male']
 clf=clf.fit(X,Y)
-prediction=clf.predict([[190,70,43]])
+prediction=clf.predict([[190,60,43]])
 print(prediction)     
