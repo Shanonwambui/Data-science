@@ -1,0 +1,24 @@
+SENTIMENT ANALYSIS
+
+Sentiment Analysis is a use case of Natural Language Processing (NLP) and comes under the category of text classification. To put it simply, Sentiment Analysis involves classifying a text into various sentiments, such as positive or negative, Happy, Sad or Neutral, etc. Thus, the ultimate goal of sentiment analysis is to decipher the underlying mood, emotion, or sentiment of a text. This is also known as Opinion Mining.
+Ways to Perform Sentiment Analysis in Python
+Python is one of the most powerful tools when it comes to performing data science tasks — it offers a multitude of ways to perform sentiment analysis. The most popular ones are enlisted here:
+
+Using Text Blob
+Using Vader
+Using Bag of Words Vectorization-based Models
+Using LSTM-based Models
+Using Transformer-based Models
+
+Using Text Blob
+Text Blob is a Python library for Natural Language Processing. Using Text Blob for sentiment analysis is quite simple. It takes text as an input and can return polarity and subjectivity as outputs.
+Polarity determines the sentiment of the text. Its values lie in [-1,1] where -1 denotes a highly negative sentiment and 1 denotes a highly positive sentiment.
+Subjectivity determines whether a text input is factual information or a personal opinion. Its value lies between [0,1] where a value closer to 0 denotes a piece of factual information and a value closer to 1 denotes a personal opinion.
+Installation:
+pip install textblob
+Importing Text Blob:
+from textblob import TextBlob
+Code Implementation for Sentiment Analysis Using Text Blob:
+Writing code for sentiment analysis using TextBlob is fairly simple. Just import the TextBlob object and pass the text to be analyzed with appropriate attributes as follows:
+Python Code:
+Subjectivity of Text 2 is 1.0
