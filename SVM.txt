@@ -1,0 +1,4 @@
+SVM
+Support Vector Machine” (SVM) is a supervised machine learning algorithm that can be used for both classification or regression challenges.
+We are using the SVM algorithm for regression. The train test split is used to evaluate the performance of our algorithm. The accuracy score function
+calculates the accuracy score for the set of predicted labels against the true labels.
